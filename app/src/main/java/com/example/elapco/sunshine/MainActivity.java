@@ -67,6 +67,10 @@ public class MainActivity extends ActionBarActivity {
             View rootView = inflater.inflate(R.layout.fragment_main, container, false);
 
 
+            /***
+             * Poblar un arreglo de Strings para pasárselos al adaptador y cargar una vista de lista
+             */
+
             String[] forecastArray = {
                     "Lunes - Soleado - 33/50",
                     "Martes - Soleado - 33/50",
